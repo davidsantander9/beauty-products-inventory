@@ -14,12 +14,32 @@ function App() {
       </nav>
       <section class="section">
         <div class="container">
+        <div class="box">
+          <div class="field">
+            <div class="control">
+              <div class="columns">
+                <div class="column">
+                <input class="input is-normal" type="text" placeholder="Busca tu producto"/>
+                </div>
+                <div class="column is-2">
+                <button class="button is-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tags are-medium">
+              <span class="tag active">Todos los productos</span>
+              <span class="tag">Tintes</span>
+              <span class="tag">Shampoos</span>
+              <span class="tag">Cepillos</span>
+            </div>
+        </div>
         <div class="columns">
           <div class="column is-one-third">
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://lh3.googleusercontent.com/pw/ACtC-3fTJd1koshxEq_dfnOXjUgfMuEjy7qPVstGzauuSD2dxJX56SqjYOJcB_u_XbtUgnFJOI9ualCshjKIcYctZg35t5u5YBVeYjk9-iA3_wHo5v-iS-pmM-wMlvisInxDIbbZ2Z18WkMHA2DYcsDK2mlNww=s666-no?authuser=0" alt="Placeholder image" />
+                <img src="https://lh3.googleusercontent.com/pw/ACtC-3fTJd1koshxEq_dfnOXjUgfMuEjy7qPVstGzauuSD2dxJX56SqjYOJcB_u_XbtUgnFJOI9ualCshjKIcYctZg35t5u5YBVeYjk9-iA3_wHo5v-iS-pmM-wMlvisInxDIbbZ2Z18WkMHA2DYcsDK2mlNww=s666-no?authus" alt="Placeholder image" />
               </figure>
             </div>
             <div class="card-content">

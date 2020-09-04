@@ -5,7 +5,8 @@
 
 // Set your brand colors
 $purple: #8a4d76;
-$pink: #fa7c91;
+$pink: #F80264;
+$primary: #F80264;
 $brown: #757763;
 $beige-light: #d0d1cd;
 $beige-lighter: #eff0eb;
@@ -44,13 +45,18 @@ $input-shadow: none;
     margin: 0 auto
 
 .card-content span
-    color: #F80264
+    color: $pink
     font-size: 1.2em;
 
 .content-price
-    background: #F80264
+    background: $pink
     border-radius: 5px
     color: #fff
     padding: 5px
+    margin: 10px 0
     span
         color: #fff    
+
+.tags .active
+    background:  $pink
+    color: #fff
